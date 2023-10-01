@@ -4,7 +4,7 @@ Explore my collection of work, projects, and experiences showcased in this repos
 
 ## About
 
-Hello! I'm Abhay, a tech enthusiast, and this is my portfolio website. Here, I showcase my projects and share a bit about myself.
+Hello! I'm Abhay, a passionate tech enthusiast, and this is my portfolio website repository. Here, I proudly showcase my projects and offer insights into who I am.
 
 ## Preview
 
@@ -26,10 +26,6 @@ To explore my portfolio website, simply visit the live website link provided abo
 
 - **Email:** abhaybalakrishnan977@gmail.com
 - **LinkedIn:** [Abhay's LinkedIn Profile](https://www.linkedin.com/in/abhaybalakrishnan/)
-
-## License
-
-This project is open-source and available under the [MIT License](LICENSE). See the [LICENSE](LICENSE) file for details.
 
 ---
 

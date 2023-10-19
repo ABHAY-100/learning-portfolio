@@ -241,19 +241,20 @@
     <!-- Contact heading -->
     <h1 class="heading">Contact</h1>
     <!-- Contact form -->
-    <form id="contact-form">
+    <form id="contact-form" action="https://formspree.io/f/moqoygre"
+    method="POST" name="contact-form" target="_parent">
       <!-- Name input -->
-      <input name="Name" type="text" placeholder="Your Name" required />
+      <input name="name" type="text" placeholder="Your Name" required />
       <!-- Email input -->
       <input
-        name="Email"
+        name="email"
         type="email"
         placeholder="Email address..."
         required
       />
       <!-- Message textarea -->
       <textarea
-        name="Message"
+        name="message"
         cols="30"
         rows="10"
         placeholder="Write message here..."

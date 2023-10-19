@@ -39,37 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // Form submission handling
-  function submitForm(event) {
-    event.preventDefault(); // Prevent the default form submission behavior
-
-    // Get form inputs
-    var name = document
-      .querySelector("#contact-form input[name='Name']")
-      .value.trim();
-    var email = document
-      .querySelector("#contact-form input[name='Email']")
-      .value.trim();
-    var message = document
-      .querySelector("#contact-form textarea[name='Message']")
-      .value.trim();
-
-    // Validate data
-    if (!name || !email || !message) {
-      alert("Please fill in all required fields.");
-      return;
-    }
-
-    // Clear form data
-    document.querySelector("#contact-form").reset();
-
-    // Alert the user for successful submission
-    alert("Form submitted successfully !");
-  }
-
-  // Add event listener to the contact form for form submission
+  // Form submission Reset handling
   const contactForm = document.getElementById("contact-form");
-  if (contactForm) {
-    contactForm.addEventListener("submit", submitForm);
-  }
+  contactForm.reset();
 });

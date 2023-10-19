@@ -40,6 +40,24 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // Form submission Reset handling
-  const contactForm = document.getElementById("contact-form");
-  contactForm.reset();
+  contactForm.addEventListener("submit", function (event) {
+    event.preventDefault(); // Prevent the default form submission
+
+    // Get form inputs
+    const name = contactForm.querySelector("input[name='name']").value.trim();
+    const email = contactForm.querySelector("input[name='email']").value.trim();
+    const message = contactForm.querySelector("textarea[name='message']").value.trim();
+
+    // Validate data
+    if (!name || !email || !message) {
+      alert("Please fill in all required fields.");
+      return;
+    }
+
+    // Reset the form data
+    contactForm.reset();
+
+    // Refresh the website by reloading the current page
+    location.reload();
+  });
 });

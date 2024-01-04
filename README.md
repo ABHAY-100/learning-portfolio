@@ -8,7 +8,7 @@ Hello! I'm Abhay, a passionate tech enthusiast, and this is my portfolio website
 
 ## Preview
 
-[View Live Website](https://itsabhay.vercel.app)
+[![itsabhaybal](portfolio_preview.png)](https://itsabhay.vercel.app/)
 
 ## Usage
 

@@ -12,7 +12,7 @@ Hello! I'm Abhay, a passionate tech enthusiast, and this is my portfolio website
 
 ## Usage
 
-To explore my portfolio website, simply visit the live website link provided above. If you want to contact me or collaborate, feel free to reach out via the contact details below.
+To explore my portfolio website, simply click on the preview provided above. If you want to contact me or collaborate, feel free to reach out via the contact details below.
 
 ## Technologies Used
 

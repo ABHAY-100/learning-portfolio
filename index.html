@@ -12,7 +12,8 @@
   <!-- Set the page title -->
 
   <meta name="description" content="Abhay Balakrishnan is a Frontend Developer and UI/UX Designer in India.">
-  <meta name="keywords" content="Frontend Development, UI/UX Design, Web Development, HTML5, CSS3, JavaScript, Figma, Responsive Design, Web Design, Portfolio Website">
+  <meta name="keywords"
+    content="Frontend Development, UI/UX Design, Web Development, HTML5, CSS3, JavaScript, Figma, Responsive Design, Web Design, Portfolio Website">
   <!-- There is a requirement of edit in keywords -->
   <meta name="author" content="Abhay Balakrishnan">
   <meta name="robots" content="index, follow">
@@ -37,6 +38,23 @@
 </head>
 
 <body>
+  <div class="alert">
+    <div class="alertbox" style="align-items: center;">
+      <p style="max-width: 400px; font-weight: 600; font-size: 16px; line-height: 18px;">Please Note: This portfolio has
+        been archived. Please visit the latest version of my work at <a href="https://abhayyy.vercel.app"
+          style="text-decoration: underline;">abhayyy.vercel.app</a>.</p>
+      <div class="">
+        <ion-icon name="close-outline" style="font-size: 30px;" onclick="closeAlertBox()"></ion-icon>
+      </div>
+    </div>
+  </div>
+  <script>
+    const alertBox = document.querySelector(".alertbox");
+    const closeAlertBox = () => {
+      alertBox.style.display = "none";
+    }
+  </script>
+
   <!-- Html for loader -->
   <div class="wrap" id="loader">
     <!-- The loading spinner -->
@@ -103,35 +121,19 @@
     <!-- Social links -->
     <div class="social">
       <!-- CodePen link -->
-      <a
-        href="https://codepen.io/itsabhaybal"
-        target="_blank"
-        id="profile-link"
-      >
+      <a href="https://codepen.io/itsabhaybal" target="_blank" id="profile-link">
         <ion-icon name="logo-codepen"></ion-icon>
       </a>
       <!-- LinkedIn link -->
-      <a
-        href="https://in.linkedin.com/in/abhaybalakrishnan"
-        target="_blank"
-        id="profile-link"
-      >
+      <a href="https://in.linkedin.com/in/abhaybalakrishnan" target="_blank" id="profile-link">
         <ion-icon name="logo-linkedin"></ion-icon>
       </a>
       <!-- dripple link -->
-      <a
-        href="https://dribbble.com/itsabhaybal"
-        target="_blank"
-        id="profile-link"
-      >
+      <a href="https://dribbble.com/itsabhaybal" target="_blank" id="profile-link">
         <ion-icon name="logo-dribbble"></ion-icon>
       </a>
       <!-- GitHub link -->
-      <a
-        href="https://github.com/ABHAY-100"
-        target="_blank"
-        id="profile-link"
-      >
+      <a href="https://github.com/ABHAY-100" target="_blank" id="profile-link">
         <ion-icon name="logo-github"></ion-icon>
       </a>
     </div>
@@ -256,7 +258,7 @@
     </a>
   </section>
 
-<!--   
+  <!--   
   <section class="container" id="contact">
     
     <h1 class="heading">Contact</h1>
@@ -304,14 +306,10 @@
   </footer>
 
   <!-- Import Ionicons module -->
-  <script
-    type="module"
-    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js">
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js">
   </script>
   <!-- Import Ionicons fallback script for older browsers -->
-  <script
-    nomodule
-    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js">
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js">
   </script>
   <!-- Script for loader -->
   <script>
@@ -319,13 +317,14 @@
     var loader = document.getElementById("loader");
 
     // Add an event listener for the "load" event
-    window.addEventListener("load", function(){
-    // Delay hiding the loader for a minimum of 2 seconds (2000 milliseconds)
-    setTimeout(function() {
-      // Hide the "loader" element after the delay
-      loader.style.display = "none";
-    }, 2000); // 2000 milliseconds (2 seconds)
-  });
+    window.addEventListener("load", function () {
+      // Delay hiding the loader for a minimum of 2 seconds (2000 milliseconds)
+      setTimeout(function () {
+        // Hide the "loader" element after the delay
+        loader.style.display = "none";
+      }, 2000); // 2000 milliseconds (2 seconds)
+    });
   </script>
 </body>
+
 </html>

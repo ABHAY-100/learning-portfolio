@@ -12,6 +12,7 @@ html,
 body {
   scroll-behavior: smooth;
   background: #f4f0f1;
+  position: relative;
 }
 
 ::placeholder {
@@ -188,6 +189,31 @@ button {
   border-radius: 12px;
 
   background: #8d6e63;
+}
+
+.alert {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.alertbox {
+  display: flex;
+  max-width: 600px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 12px;
+  background: #f9c8c7;
+  border: 2px solid #e3826d;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 10000000000;
+  top: 20px;
+  padding: 18px 20px;
+  /* left: 10px; */
+  justify-content: space-between;
+  gap: 10px;
 }
 
 button:hover {

@@ -3,11 +3,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const menuIcon = document.getElementById("menuIcon");
   const menuList = document.getElementById("menuList");
 
-  alert("Thank you for visiting! This portfolio is an older version of my work. You will be automatically redirected to my new website shortly.");
-  setTimeout(function() {
-    window.location.href = "https://abhayyy.vercel.app";
-  }, 3000);
-
   // Initialize menu as closed
   menuList.style.display = "none"; // Hide the menu list
   menuIcon.style.backgroundColor = "transparent"; // Set the menu icon background color to transparent

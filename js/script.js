@@ -1,6 +1,6 @@
 // Wait for the DOM to be fully loaded and parsed
 document.addEventListener("DOMContentLoaded", () => {
-  window.location.replace("https://abhayyy.vercel.app");
+  // window.location.replace("https://abhayyy.vercel.app");
 
   const menuIcon = document.getElementById("menuIcon");
   const menuList = document.getElementById("menuList");
